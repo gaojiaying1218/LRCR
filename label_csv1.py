@@ -49,19 +49,6 @@ def labelNum6941(): #author GJY
 
 
 
-def createLabel():
-    label_list = []
-    name_list = []
-    for name in os.listdir(dir_name):
-        char = name.split('-')
-        #print(char)
-        name_list.append(name)
-        label_list.append(char[1])
-    csv = {'name': name_list, 'label': label_list}
-    csv = pd.DataFrame(csv)
-    print(csv)
-    csv.to_csv('D:/代码/Python代码/ResNet/jiagu_trans/jiagu_jinwenLabel/jiaguwen_transdata_label.csv', index=False)
-
 def labelNum():
 
     all_label = pd.read_csv('D:\代码\Python代码\ResNet_JiDa6941/Created6941_label.csv')
