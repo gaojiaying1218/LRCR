@@ -1,8 +1,3 @@
-# @Time : 2021/6/20 9:42
-# @Author : Shilida
-# @Site :
-# @File : label_csv.py
-# @Software: PyCharm
 
 #coding=gbk
 import os
